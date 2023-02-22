@@ -1,0 +1,122 @@
+.vulklogo {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    max-width: 100%;
+
+    border-radius: 10px;
+}
+.mens {
+    position: absolute;
+    top: 90px;
+    color: #2c2c2c;
+    padding: 0;
+    border: none;
+    background: none;
+    left: 30px;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #525252;
+}
+.mens::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.mens:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.womens {
+    position: absolute;
+    top: 90px;
+    color: #2c2c2c;
+    padding: 0;
+    border: none;
+    background: none;
+    left: 220px;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #525252;
+}
+.womens::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.womens:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.sep {
+    border-top: 1px solid #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+#thumbs {
+    margin-top: 90px;
+    margin-left: auto; 
+    margin-right: auto;
+
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+.sep2 {
+    border-top: 1px solid #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.new {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2c2c2c;
+    text-shadow: 2px 2px 2px #525252;
+}
+body {
+    background-image: url("stripe.png");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center;
+}
