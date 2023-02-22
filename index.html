@@ -1,30 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="vulkicon.png">
-    <title>Vulk</title>
-</head>
-<body>
-    <img class="vulklogo" src="Vulk-FILES-02-1.png">
-    <hr class="sep">
+	<head>
+		<meta charset="utf-8">
+		<title>Vulk Clothing</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<link rel="icon" href="vulkicon.png">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
 
-    <button class="mens">Men's Clothing</button>
-    <button class="womens">Women's Clothing</button>
-    <img class="middle" src="middle.png">
-    <hr class="sep2">
-    <h1 class="new">
-        New In Stock
-    </h1>
-    <div id="thumbs">
-        <img class="hoodie" style="max-width: 100%;" src="https://img.ltwebstatic.com/images3_pi/2021/11/19/1637299999d70f155408f66b275c63777686174ecc_thumbnail_600x.webp">
-        <img class="shorts" style="max-width: 100%;" src="https://m.media-amazon.com/images/I/71yz0qL0I2L._AC_SX679_.jpg">
-        <img class="crop" style="max-width: 100%;" src="https://img.ltwebstatic.com/images3_pi/2021/09/26/1632629319564855327742cf3ce956c6c8fe0bddd8_thumbnail_600x.webp">
-        <img class="tee" style="max-width: 100%;" src="https://m.media-amazon.com/images/I/71sE27B9pxL._AC_SX679_.jpg">
-        <span class="stretch"></span>
-    </div>
-</body>
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="cart.html">Cart</a></li>
+							<li><a href="checkout.html">Checkout</a></li>					
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="Vulk-FILES-02-1.png" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+
+					</nav>
+				</div>
+			</section>
+			<section  class="homepage-slider" id="home-slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="Vulk-FILES-02-1.png" alt="" />
+						</li>
+						<li>
+							<img src="Vulk-FILES-01.jpg" alt="" />
+							<div class="intro">
+							</div>
+						</li>
+					</ul>
+				</div>			
+			</section>
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">													
+						<div class="row">
+							<div class="span12">
+								<h4 class="title">
+									<span class="pull-left"><span class="text"><span class="line">New <strong>Products</strong></span></span></span>
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel" data-slide="prev"></a><a class="right button" href="#myCarousel" data-slide="next"></a>
+									</span>
+								</h4>
+								<div id="myCarousel" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img src="vulktee.png" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Vulk Tee</a><br/>
+														<p class="price">$25.00</p>
+													</div>
+												</li>
+												<!--  <li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img src="themes/images/ladies/2.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Quis nostrud exerci tation</a><br/>
+														<a href="products.html" class="category">Quis nostrud</a>
+														<p class="price">$32.50</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/ladies/3.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Know exactly turned</a><br/>
+														<a href="products.html" class="category">Quis nostrud</a>
+														<p class="price">$14.20</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/ladies/4.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">You think fast</a><br/>
+														<a href="products.html" class="category">World once</a>
+														<p class="price">$31.45</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/ladies/5.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Know exactly</a><br/>
+														<a href="products.html" class="category">Quis nostrud</a>
+														<p class="price">$22.30</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/ladies/6.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
+														<a href="products.html" class="category">Commodo consequat</a>
+														<p class="price">$40.25</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/ladies/7.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">You think water</a><br/>
+														<a href="products.html" class="category">World once</a>
+														<p class="price">$10.45</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/ladies/8.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Quis nostrud exerci</a><br/>
+														<a href="products.html" class="category">Quis nostrud</a>
+														<p class="price">$35.50</p>
+													</div>
+												</li>																																	
+											</ul>
+										</div>
+									</div>							
+								</div> -->		
+							</div>		
+						</div>
+						<br/>
+						
+						<div class="row feature_box">						
+							<div class="span4">
+								<div class="service">
+									<div class="responsive">	
+										<img src="themes/images/feature_img_2.png" alt="" />
+										<h4>MODERN <strong>DESIGN</strong></h4>
+										<p>Our clothing has some of the most sleek design you wouldn't find anywhere else!</p>									
+									</div>
+								</div>
+							</div>
+							<div class="span4">	
+								<div class="service">
+									<div class="customize">			
+										<img src="themes/images/feature_img_1.png" alt="" />
+										<h4>FREE <strong>SHIPPING*</strong></h4>
+										<p>*Free shipping only applies to donators of over $30 to our <a href="https://gofund.me/72f16bf1">GoFundMe</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="span4">
+								<div class="service">
+									<div class="support">	
+										<img src="themes/images/feature_img_5.png" style="width: 40px; cursor: pointer;" onclick="window.location.assign('https://discord.gg/atjN2rKDy5');" alt="" />
+										<h4><strong>DISCORD</strong></h4>
+										<p>Our Discord Server provides answers to all your enquiries! Just DM a Moderator!</p>
+									</div>
+								</div>
+							</div>	
+						</div>		
+					</div>				
+				</div>
+			</section>
+			<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Navigation</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Homepage</a></li>  
+							<li><a href="./about.html">About Us</a></li>
+							<li><a href="./contact.html">Contact Us</a></li>
+							<li><a href="./cart.html">Cart</a></li>						
+						</ul>					
+					</div>				
+				</div>	
+			</section>
+			<section id="copyright">
+				<span>Copyright 2023 Vulk Clothing All rights reserved.</span>
+			</section>
+		</div>
+		<script src="themes/js/common.js"></script>
+		<script src="themes/js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(document).ready(function() {
+					$('.flexslider').flexslider({
+						animation: "fade",
+						slideshowSpeed: 4000,
+						animationSpeed: 600,
+						controlNav: false,
+						directionNav: true,
+						controlsContainer: ".flex-container" // the container that holds the flexslider
+					});
+				});
+			});
+		</script>
+    </body>
 </html>
