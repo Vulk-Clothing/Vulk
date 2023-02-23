@@ -266,6 +266,12 @@ section#copyright{
 
 /* top navigation
 ----------------------------------------------------------------------------- */
+#daig {
+	margin-left: 60px;
+}
+#footer-bar2 {
+	margin-left: 60px;
+}
 section.navbar{
 	margin-bottom:0;
 }
@@ -774,5 +780,11 @@ section.our_client .row{
 	}
 	.feature_box .service{	
 		border-bottom:1px solid #eee;
+	}
+	#daig {
+		margin-left: 0px;
+	}
+	#footer-bar2 {
+		margin-left: 0px;
 	}
 }
